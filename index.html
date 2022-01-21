@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rechenzeichen Einsetzen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1>Rechenzeichen einfügen</h1>
+            <div id="zahlenreihe">
+                <!--1==plus 2==minus 3==geteilt 4==mal-->
+                <p class="zahl" id="zahl1"></p>
+                <select class="rechen-zeichen" id="zeichen1">
+                    <option value="" selected="selected"></option>
+                    <option value="1">+</option>
+                    <option value="2">-</option>
+                    <option value="3">/</option>
+                    <option value="4">x</option>
+                </select>
+                <p class="zahl" id="zahl2"></p>
+                <select class="rechen-zeichen" id="zeichen2">
+                    <option value="" selected="selected"></option>
+                    <option value="1">+</option>
+                    <option value="2">-</option>
+                    <option value="3">/</option>
+                    <option value="4">x</option>
+                </select>
+                <p class="zahl" id="zahl3"></p>
+                <select class="rechen-zeichen" id="zeichen3">
+                    <option value="" selected="selected"></option>
+                    <option value="1">+</option>
+                    <option value="2">-</option>
+                    <option value="3">/</option>
+                    <option value="4">x</option>
+                </select>
+                <p class="zahl" id="zahl4"></p>
+                <select class="rechen-zeichen" id="zeichen4">
+                    <option value="" selected="selected"></option>
+                    <option value="1">+</option>
+                    <option value="2">-</option>
+                    <option value="3">/</option>
+                    <option value="4">x</option>
+                </select>
+                <p class="zahl" id="zahl5"></p>
+                <p class=ergebniss>=</p>
+                <p class="ergebniss" id="ergebniss"></p>
+            </div>
+            <div class="controls">
+                <button id="neue-zahlenreihe">
+                    Neue Zahlenreihe
+                </button>
+                <button id="test">
+                    Test
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
